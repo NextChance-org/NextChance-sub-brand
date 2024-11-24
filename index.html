@@ -13,6 +13,7 @@
     <header>
         <span class="title">^^</span><div class="subtitle">by NextChance</div>
         <main id="menu">
+            <span id="home-tab">ホーム</span>
             <span id="product-tab">製品</span>
             <span id="overview-tab">概要</span>
             <span id="code-tab">コード</span>
@@ -20,12 +21,26 @@
     </header>
         <div class="center-pos">
             <main id="code-consent">
-                <span>本ソースコード 利用規約</span>
-                <div>MIT Licence に基づいて利用することに同意します(<a href="https://github.com/kaohon/Noimzip-sub-brand/tree/main?tab=MIT-1-ov-file">必読</a>)<input type="checkbox"></div>
-                <div>公序良俗に違反しないこと・政治的利用をしないことに同意します<input type="checkbox"></div>
-                <div><a href="https://github.com/kaohon/Noimzip-sub-brand/tree/main?tab=readme-ov-file">GitHub ソースコード</a></div>
+                <span id="closes">☒</span> 本ソースコード 利用規約
+                <div>MIT License に基づいて利用することに同意します(<a href="https://github.com/kaohon/Noimzip-sub-brand/tree/main?tab=MIT-1-ov-file">必読</a>)<input id="license" type="checkbox"></div>
+                <div>公序良俗に違反しないこと・政治的利用をしないことに同意します<input id="moral" type="checkbox"></div>
+                <button id="check">確認</button>
+                <div id="codelink"><a href="https://github.com/kaohon/Noimzip-sub-brand/tree/main?tab=readme-ov-file">GitHub ソースコード</a></div>
             </main>
         </div>
+        <main id="product-view">
+            <main id="sticker-products">
+                <div class="product-view-maintitle">―スタンプ―</div>
+                <div class="product-view-title">1.^^ スタンプ 2024年10月から販売中</div>
+                <div class="product-view-title">2.^^ スタンプ第二弾 同年11月から販売中</div>
+            </main>
+            <main id="comming-soon-products">
+                <div class="product-view-maintitle">―今後の予定―</div>
+                <div class="product-view-title">1.^^ 着せ替え 2025年3月 販売開始予定</div>
+                <div class="product-view-title">2.^^ スタンプ第三段 同日 販売開始予定</div>
+                <div class="product-view-title">3.^^ 絵文字 同日 販売開始予定</div>
+            </main>  
+        </main>
         <main id="overview">
             <p>利益よりも大切なこと、^^をもっとみんなに広めたい。</p>
             <p>プログラミング・デザインで実現させる。</p>
@@ -43,7 +58,7 @@
                 <br><div class="day">4日</div> スタンプ第二弾承認
                 <br><div class="day">10日</div> スタンプ第二弾販売開始＆スタンプ第一弾 利益1000円突破
                 <br><div class="day">11日</div> スタンプ第二弾 利益1000円突破＆総利益2000円突破
-					 <br><div class="day">18日</div> 「NextChance」の発足 ^^はサブブランドとなり「^^ by Noimzip」から「^^ by NextChance」へ
+                     <br><div class="day">18日</div> 「NextChance」の発足 ^^はサブブランドとなり「^^ by Noimzip」から「^^ by NextChance」へ
             </main>
 
             <main id="profit-table">
@@ -68,19 +83,6 @@
                 <br>推定売上個数 × 150 = 推定売上
             </main>
         </main>
-		<main id="product-view">
-			<main id="sticker-products">
-				<div class="product-view-maintitle">―スタンプ―</div>
-				<div class="product-view-title">1.^^ スタンプ 2024年10月から販売中</div>
-				<div class="product-view-title">2.^^ スタンプ第二弾 同年11月から販売中</div>
-			</main>
-			<main id="comming-soon-products">
-				<div class="product-view-maintitle">―今後の予定―</div>
-				<div class="product-view-title">1.^^ 着せ替え 2025年3月 販売開始予定</div>
-				<div class="product-view-title">2.^^ スタンプ第三段 同日 販売開始予定</div>
-				<div class="product-view-title">3.^^ 絵文字 同日 販売開始予定</div>
-			</main>  
-		</main>
         <main id="product-head">
             <span class="product-title" id="head-title">^^ スタンプ第二弾</span>
             <div class="product-preview">
@@ -93,8 +95,8 @@
             </div>
             <div class="product-subtitle" id="head-subtitle">11/10 新登場</div>
             <div class="product-price" id="head-price">Web ¥120 App ¥150</div>
-            <div class="detail-b" id="head-detail-b"><a href="">詳細・画像差分はこちらへ</a></div>
-            <div class="buy-b" id="head-buy-b"><a href="https://store.line.me/stickershop/product/28493021/ja">購入はこちらへ</a></div>
+            <div class="detail-b" id="head-detail-b"><a href="https://github.com/NextChance-org/Noimzip-Sticker-2">詳細・画像差分はこちらへ(完全無料)</a></div>
+            <div class="buy-b" id="head-buy-b"><a href="https://store.line.me/stickershop/product/28706457/ja">購入はこちらへ</a></div>
         </main>
 
         <main id="product-second">
@@ -108,8 +110,8 @@
                 <img src="stamp/33.png" alt="">
             </div>
             <div class="product-price" id="second-price">Web ¥120 App ¥150</div>
-            <div class="detail-b" id="second-detail-b"><a href="">詳細・画像差分はこちらへ</a></div>
-            <div class="buy-b" id="second-buy-b"><a href="https://store.line.me/stickershop/product/28706457/ja">購入はこちらへ</a></div>
+            <div class="detail-b" id="second-detail-b"><a href="https://github.com/NextChance-org/Noimzip-Sticker-1">詳細・画像差分はこちらへ(完全無料)</a></div>
+            <div class="buy-b" id="second-buy-b"><a href="https://store.line.me/stickershop/product/28493021/ja">購入はこちらへ</a></div>
         </main>
 
         <main id="product-third">
@@ -118,9 +120,12 @@
             <div class="product-subtitle" id="third-subtitle">2025年3月 販売開始予定</span>
         </main>
     <footer>
-        <span class="title">^^</span><div class="subtitle">by NextChance</div>
-        <a href="https://www.instagram.com/noimzip/"><img id="footer-instagram" width="75" height="75" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/600px-Instagram_logo_2022.svg.png"></a>
-        <a href="https://x.com/takagiken1_iku"><img id="footer-x" width="75" height="75" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/X_logo_2023.svg/800px-X_logo_2023.svg.png"></a>
+        <span id="footer-title">^^</span><div id="footer-subtitle">by NextChance</div>
+        <div id="sites">
+        <a href="https://www.instagram.com/nextchance_org/"><img id="footer-instagram" width="75" height="75" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/600px-Instagram_logo_2022.svg.png"></a>
+        <a href="https://x.com/NextChance66617"><img id="footer-x" width="75" height="75" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/X_logo_2023.svg/800px-X_logo_2023.svg.png"></a>
+        <a href="https://github.com/NextChance-org"><img id="footer-github" width="75" height="75" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/220px-GitHub_Invertocat_Logo.svg.png"></a>
+        </div>
     </footer>
     <script src="script.js"></script>
 </body>
