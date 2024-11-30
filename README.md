@@ -1,4 +1,4 @@
-# NextChance-sub-brand
+# NextChance-sub-brand-official-website
 # ライセンス(必読)
 このプロジェクトは MIT ライセンスに基づいてライセンスされています。詳細については、LICENSE ファイルを参照してください。
 
