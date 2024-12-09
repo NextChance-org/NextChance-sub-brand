@@ -216,9 +216,9 @@ footer {
 
 #chrono-line {
     position: absolute;
-    left: 115px;
+    left: 117.5px;
     top: 500px;
-    height: 820px;
+    height: 1100px;
     width: 5px;
     z-index: -1;
     background-color: #000;
